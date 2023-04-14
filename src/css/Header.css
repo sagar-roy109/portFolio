@@ -1,0 +1,21 @@
+/** HEADER CSS **/
+
+.nav__wrapper {
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+}
+
+.nav__menu ul{
+	display: flex;
+
+}
+
+.nav__menu li{
+	list-style: none;
+	margin-left: 10px !important;
+}
+
+.nav__menu a {
+	display: block;
+}
