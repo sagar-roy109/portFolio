@@ -1,0 +1,61 @@
+/** HOME PAGE **/
+
+.home__wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.home__wrapper h1 {
+	font-size: 70px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+
+.home__wrapper h3{
+	text-align: center;
+	font-size: 22px !important;
+}
+
+.home__wrapper .home__desc {
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	padding: 15px 0;
+}
+
+.home__wrapper ul.icons {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin: 15px 0;
+}
+.home__wrapper li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 10px;
+}
+
+.home__wrapper .home__social a {
+
+    background: linear-gradient(90deg, rgba(250,82,82,0.9514399509803921) 48%, rgba(221,36,118,1) 100%);
+    font-size: 18px;
+    border-radius: 100%;
+    line-height: 0px;
+    width: 33px;
+    height: 33px;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.home__button {
+	text-align: center;
+	margin-top: 25px;
+}
+
+

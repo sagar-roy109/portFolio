@@ -14,3 +14,46 @@ a{
 	text-decoration: none !important;
 	color: #fff !important;
 }
+
+.button {
+	text-transform: uppercase;
+	background: transparent;
+	transition: 1.5s;
+	-webkit-transition: 1.5s;
+	-moz-transition: 1.5s;
+	-ms-transition: 1.5s;
+	-o-transition: 1.5s;
+	border: 1px solid rgba(250,82,82,0.9514399509803921);
+	border-radius: 3px;
+	cursor: none;
+	padding: 8px 30px;
+
+
+}
+ .button:hover{
+	background: linear-gradient(90deg, rgba(250,82,82,0.9514399509803921) 48%, rgba(221,36,118,1) 100%);
+
+}
+
+.textColor{
+	background-image: linear-gradient(293deg, rgb(255 55 55 / 95%) 38%, rgb(255 17 122) 100%);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.page-title h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 50px;
+
+}
+.page-title h1:after {
+	content: '';
+	clear: both;
+	display: block;
+	width: 101px;
+	height: 2px;
+	background: linear-gradient(293deg, rgb(255 55 55 / 95%) 38%, rgb(255 17 122) 100%);
+}
+
