@@ -1,13 +1,12 @@
 import React from 'react'
+import AboutComponent from '../components/AboutComponent'
+import WhatIdoComponent from '../components/WhatIdoComponent'
 
 function AboutPage() {
 	return (
 		<>
-		<div className="container">
-			<div className="page-title">
-				<h1>About <span className='textColor'>me</span></h1>
-			</div>
-		</div>
+		<AboutComponent/>
+		<WhatIdoComponent/>
 		</>
 	)
 }

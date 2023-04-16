@@ -1,0 +1,32 @@
+.portfolio-details h2 {
+	font-size: 3rem;
+	letter-spacing: 3px;
+}
+
+p.about-descriptiopn {
+	font-size: 17px;
+	line-height: 30px;
+	color: #bababa;
+	margin: 20px 0;
+}
+ul.about-location {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.about-location li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 17px;
+	color: #bababa;
+}
+.about-location li a {
+	color: #bababa !important;
+}
+
+.about-location svg{
+	color:  rgb(255 17 122);
+	margin-right: 4px;
+
+}

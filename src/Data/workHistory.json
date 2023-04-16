@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"company": "BarzzLock",
+		"job": "Web Developer",
+		"duration": "December 2022- Present",
+		"location": "Kitchener, Ontario",
+		"desc": "Designed & Developed a Website for company business using WordPress, WooCommerce, ACF <br/> Maintaining & fixing bugs of exisiting websites"
+	},
+	{
+		"id": 2,
+		"company": "GetOnNet",
+		"job": "Software Developer ",
+		"duration": "July 2021- February 2022",
+		"location": "Remote",
+		"desc": "Designed front-end for components using JavaScript, CSS, HTML, Bootstrap, and SCSS<br/> Designed SPA websites using React JS, Node JS <br/> Designed & Developed website from UI using ACF, custom post type & Elementor"
+	},
+	{
+		"id": 3,
+		"company": "AITL",
+		"job": "Web Developer",
+		"duration": "Sept 2020- May 2021",
+		"location": "Remote",
+		"desc": "Engaged with clients to plan and optimize site issues and queries<br/> Provided security maintenance and patching on the website interface to maintain viability after the launch <br/> Created responsive WordPress website, WordPress customization, and Multi-vendor WooCommerce Website"
+	},
+	{
+		"id": 4,
+		"company": "Red Thunder IT",
+		"job": "Website Developer  ",
+		"duration": "April 2018- February 2020",
+		"location": "Dhaka, Bangladesh",
+		"desc": "Planned, created, and maintained websites for clients<br/> Converted PSD/xd/Figma templates to responsive HTML template <br/> Developed custom WordPress themes from scratch using PHP and MySQL"
+	},
+	{
+		"id": 5,
+		"company": "Fiverr",
+		"job": "Website Developer  ",
+		"duration": "June 2017- June 2018",
+		"location": "Remote",
+		"desc": "Worked with more than 100 clinets for developing their websites "
+	}
+]
