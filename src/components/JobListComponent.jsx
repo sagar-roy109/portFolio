@@ -13,7 +13,7 @@ const JobListComponent = (props) => {
 							</div>
 							<div className="job-details">
 								<h2>{job.company}</h2>
-								<p>{job.desc}</p>
+								<p dangerouslySetInnerHTML={ {__html: job.desc} }/>
 							</div>
 					</div>
 		</>
