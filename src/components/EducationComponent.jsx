@@ -24,7 +24,7 @@ const EducationComponent = () => {
 				<h2>Edu<span className='textColor'>cation</span></h2>
 			</div>
 			</div>
-			<div className="container">
+			<div className="container education">
 				<div className="row">
 
 					{

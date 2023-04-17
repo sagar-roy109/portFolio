@@ -72,3 +72,38 @@ margin: 10px 0;
 	font-style: italic;
 
 }
+
+
+
+/** MOBILE **/
+@media all and (max-width:1000px){
+	.education .row {
+display: block;
+}
+	.education .row >div{
+			width: 100%;
+			margin-top: 20px;
+	}
+	.job-details {
+	width: 65%;
+}
+	.job-info {
+	width: 35%;
+}
+}
+
+@media all and (max-width:992px){
+	.jobs{
+		display: block;
+	}
+	.job-details::before {
+	display: none;
+}
+	.job-details{
+			width: 100%;
+			margin-top: 20px
+	}
+	.job-info{
+			width: 100%;
+	}
+}

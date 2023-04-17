@@ -4,7 +4,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .home__wrapper h1 {
@@ -26,6 +26,7 @@
 	margin: auto;
 	font-size: 18px;
 	padding: 15px 0;
+	color: #bababa ;
 }
 
 .home__wrapper ul.icons {
@@ -33,6 +34,7 @@
 	padding: 0;
 	text-align: center;
 	margin: 15px 0;
+
 }
 .home__wrapper li {
 	display: inline-block;
@@ -58,4 +60,28 @@
 	margin-top: 25px;
 }
 
+/** MOBILE **/
 
+@media all and (max-width: 1000px){
+
+	.home__wrapper .home__desc {
+	 width: 80%;
+
+}
+
+}
+
+@media all and (max-width: 768px){
+.home__wrapper .home__desc {
+	 width: 100%;
+	 font-size:17px;
+
+}
+	.home__wrapper h1 {
+	font-size: 50px;
+
+}
+	.home__wrapper h3 {
+	 font-size: 20px !important;
+}
+}

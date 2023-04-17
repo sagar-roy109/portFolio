@@ -9,7 +9,7 @@ function AboutComponent() {
   return (
     <>
 
-      <div className="container">
+      <div className="container about__page">
 
 			<div className="page-title">
 				<h2>About <span className='textColor'>me</span></h2>

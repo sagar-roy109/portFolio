@@ -30,3 +30,45 @@ ul.about-location {
 	margin-right: 4px;
 
 }
+
+
+/*** MOBILE **/
+
+/** ABOUT PAGE **/
+
+@media all and (max-width:1000px){
+	.about__page .row{
+			display: block;
+	}
+
+	.about__page .row>div{
+			width: 100% !important;
+	}
+
+	.about__page img{
+			width: 100%;
+	}
+
+	.about__page .portfolio-details{
+			margin-top: 40px;
+			text-align: center;
+	}
+	.portfolio-details h2 {
+	font-size: 40px;
+
+}
+}
+
+
+@media all and (max-width:768px){
+	.portfolio-details h2 {
+	font-size: 28px;
+}
+	.work-content h6 {
+	font-size: 20px;
+}
+	.work {
+	 display: block;
+	text-align: center;
+}
+}

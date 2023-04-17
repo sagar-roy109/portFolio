@@ -5,7 +5,8 @@ const JobListComponent = (props) => {
 
 	return (
 		<>
-		<div className="col-md-12 jobs">
+		<div className="col-md-12">
+							<div className="jobs">
 							<div className="job-info">
 								<h2>{job.job}</h2>
 								<p>{job.location}</p>
@@ -14,6 +15,7 @@ const JobListComponent = (props) => {
 							<div className="job-details">
 								<h2>{job.company}</h2>
 								<p dangerouslySetInnerHTML={ {__html: job.desc} }/>
+							</div>
 							</div>
 					</div>
 		</>

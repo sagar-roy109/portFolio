@@ -36,3 +36,17 @@ nav{
 .nav__menu a.active {
 	background: linear-gradient(90deg, rgba(250,82,82,0.9514399509803921) 48%, rgba(221,36,118,1) 100%);
 }
+
+
+/*** MOBILE DESIGN **/
+
+/** HEADER **/
+
+@media all and (max-width: 1000px){
+	.nav__menu{
+			display: none;
+	}
+
+
+}
+
