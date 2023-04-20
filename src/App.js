@@ -4,6 +4,7 @@ import HeaderComponent from './components/HeaderComponent';
 import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
 import Resume from './Pages/Resume';
+import Portfolio from './Pages/Portfolio';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 					<Route path="/" element = {<HomePage/>}/>
 					<Route path="about" element={<AboutPage/>}/>
 					<Route path='resume' element={<Resume/>}/>
+					<Route path='portfolio' element={<Portfolio/>} />
 				</Routes>
     </div>
   );
