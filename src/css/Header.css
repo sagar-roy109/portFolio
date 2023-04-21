@@ -3,6 +3,9 @@
 nav{
 	padding: 10px 0;
 }
+.mobile__menu_icon{
+	display: none;
+}
 .nav__wrapper {
   display: flex;
   align-items: center;
@@ -46,6 +49,45 @@ nav{
 	.nav__menu{
 			display: none;
 	}
+	.mobile__menu_icon{
+		display: block;
+	}
+
+	.mobile_menu{
+		width: 100%;
+		background: #000000bd;
+		padding: 20px;
+		position: fixed;
+		top: 0;
+		left:0px;
+		min-height: 100vh;
+		z-index: 999;
+		display: block;
+
+}
+
+.mobile_menu ul{
+		display: block;
+		padding: 0;
+		width: 300px;
+		background: #0a0a0a;
+		min-height: 100vh;
+		position: fixed;
+		top: 0;
+		right: 0px;
+		padding: 20px;
+
+
+}
+
+.mobile_menu li{
+    margin-left: 0 !important;
+    margin-top: 10px !important;
+    padding: 0;
+
+}
+
+
 
 
 }
