@@ -6,6 +6,10 @@ nav{
 .mobile__menu_icon{
 	display: none;
 }
+.mobile_menu_close_icon{
+	display: none;
+
+}
 .nav__wrapper {
   display: flex;
   align-items: center;
@@ -67,6 +71,7 @@ nav{
 
 }
 .mobile_menu_close_icon{
+	display: block;
 	position: fixed;
 	right: 10px;
 	top: 20px;
