@@ -64,9 +64,16 @@ nav{
 		z-index: 999;
 		display: block;
 
-}
 
+}
+.mobile_menu_close_icon{
+	position: fixed;
+	right: 10px;
+	top: 20px;
+	z-index: 999;
+}
 .mobile_menu ul{
+	margin-top: 30px;
 		display: block;
 		padding: 0;
 		width: 300px;

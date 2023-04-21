@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink, Link} from 'react-router-dom';
-import { AiOutlineUser, AiOutlineHome, AiOutlineFileText, AiOutlineCodepen } from "react-icons/ai";
+import { AiOutlineUser, AiOutlineHome, AiOutlineFileText, AiOutlineCodepen, AiOutlineClose } from "react-icons/ai";
 import { FiBarChart2 } from "react-icons/fi";
 import { useRef, useState } from 'react';
 
@@ -24,6 +24,9 @@ const HeaderComponent = () => {
 							<Link to = '/'>WEB PRO</Link>
 						</div>
 						<div className="nav__menu" ref={navMenuRef}>
+							<div className="mobile_menu_close_icon">
+								<AiOutlineClose onClick={handleMobileMenu} />
+							</div>
 							<ul>
 								<li><NavLink to={'/'}><span><AiOutlineHome/></span>Home</NavLink></li>
 								<li><NavLink to={'/about'}><span><AiOutlineUser/></span>About</NavLink></li>
